@@ -1,0 +1,1 @@
+# hpc-openMP-lab2
