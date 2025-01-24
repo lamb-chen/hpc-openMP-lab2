@@ -6,7 +6,8 @@
 #SBATCH --exclusive
 #SBATCH --partition=teach_cpu
 #SBATCH --cpus-per-task=1
+#SBATCH --output=lastprivate
 
-export OMP_NUM_THREADS=16
+export OMP_NUM_THREADS=4
               
-./vaddScheduling         
+./private         

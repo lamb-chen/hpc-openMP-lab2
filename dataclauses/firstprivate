@@ -1,0 +1,12 @@
+before: x=-1
+Thread 0 setting x=-1 to 0
+Thread 2 setting x=-1 to 6
+Thread 2 setting x=6 to 7
+Thread 3 setting x=-1 to 8
+Thread 3 setting x=8 to 9
+Thread 1 setting x=-1 to 3
+Thread 1 setting x=3 to 4
+Thread 1 setting x=4 to 5
+Thread 0 setting x=0 to 1
+Thread 0 setting x=1 to 2
+after: x=-1
